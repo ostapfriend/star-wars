@@ -1,9 +1,9 @@
 import React from "react";
 import { Text, View } from "react-native";
 
-import { HeartSvg } from "./index.ts";
-import { colors } from "../utils/colors.ts";
-import { styles } from "../utils/fontStyles.ts";
+import { HeartSvg } from "../index.ts";
+import { colors } from "../../utils/colors.ts";
+import { styles } from "../../utils/fontStyles.ts";
 
 const HeaderList = () => {
   return (
