@@ -5,7 +5,7 @@ Tech stack and libraries:
  - redux-toolkit
  - axios
  - svg libraries
- - eslint and prettieer with recommended configs
+ - eslint and prettier with recommended configs
 
 Screens: 
  - Main
