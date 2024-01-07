@@ -1,9 +1,9 @@
 import React from "react";
 import { Text, TouchableHighlight, View } from "react-native";
 
-import Chevron from "./svg/Chevron.tsx";
-import { styles } from "../utils/fontStyles.ts";
-import { colors } from "../utils/colors.ts";
+import Chevron from "../svg/Chevron.tsx";
+import { styles } from "../../utils/fontStyles.ts";
+import { colors } from "../../utils/colors.ts";
 
 
 interface FooterListProps {

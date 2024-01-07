@@ -2,14 +2,14 @@ import React, { Fragment } from "react";
 import { Text, TouchableHighlight, View } from "react-native";
 import { useDispatch, useSelector } from "react-redux";
 
-import { HeartSvg } from "./index.ts";
-import { formatBirthDate } from "../utils/birthdayFunctions.ts";
-import { addOrRemovePeopleToFavourites } from "../store/favouritePeoples";
-import { People } from "../utils/interfaces.ts";
-import { RootState } from "../store";
-import { styles } from "../utils/fontStyles.ts";
-import { colors } from "../utils/colors.ts";
-import { MainScreenNavigationProp } from "../screens/Main.tsx";
+import { HeartSvg } from "../index.ts";
+import { formatBirthDate } from "../../utils/birthdayFunctions.ts";
+import { addOrRemovePeopleToFavourites } from "../../store/favouritePeoples";
+import { People } from "../../utils/interfaces.ts";
+import { RootState } from "../../store";
+import { styles } from "../../utils/fontStyles.ts";
+import { colors } from "../../utils/colors.ts";
+import { MainScreenNavigationProp } from "../../screens/Main.tsx";
 
 interface ItemProps {
   item: People,

@@ -1,19 +1,19 @@
 import React, {Fragment, useEffect, useState} from 'react';
 import { ActivityIndicator, ScrollView, Text, View } from 'react-native';
 
-import { colors } from '../utils/colors.ts';
-import { People}  from "../utils/interfaces.ts";
+import { colors } from '../../utils/colors.ts';
+import { People}  from "../../utils/interfaces.ts";
 import {
   CustomTextInput,
   FooterList,
   HeaderList,
   Item,
-} from './index.ts';
+} from '../index.ts';
 import {
   getCountPagesPaginatedPeoples,
   getPaginatedPeoples,
-} from '../api/swapApi.tsx';
-import { MainScreenNavigationProp } from "../screens/Main.tsx";
+} from '../../api/swapApi.tsx';
+import { MainScreenNavigationProp } from "../../screens/Main.tsx";
 
 interface ListProps {
   navigation: MainScreenNavigationProp,
